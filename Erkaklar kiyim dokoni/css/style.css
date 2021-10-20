@@ -1,0 +1,318 @@
+/* =================  Poppins ================= */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+/* =================  Josefin slap ================= */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@400;500;700&display=swap");
+/* ================= NAVBAR ================= */
+@import url(../css/navbar.css);
+/* ================= FOOTER ================= */
+@import url(../css/footer-style.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(220deg 69% 97%);
+  list-style-type: none;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  min-width: 1200px;
+  min-height: 100vh;
+}
+header {
+  color: #333;
+  background: #3a444f;
+}
+/* =============== intro ================== */
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+.big_logo {
+  padding-right: 100px;
+  height: 100%;
+}
+.header-intro {
+  font-family: "Josefin Slab", sans-serif;
+  padding-left: 50px;
+  padding-top: 150px;
+  height: 100%;
+}
+.intro-title {
+  color: #e0ae77;
+  font-size: 64px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 5rem;
+}
+.intro-country {
+  color: #e0ae77;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 2rem;
+}
+.intro-text {
+  width: 500px;
+  color: #e0ae77;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 6px;
+  padding-top: 12px;
+}
+.intro-contacts {
+  color: #e0ae77;
+  font-size: 22px;
+  font-weight: 400;
+  padding-left: 6px;
+  padding-top: 150px;
+
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Trebuchet MS", sans-serif;
+}
+.contact-phone__telegram {
+  color: #bd9365;
+  transition: 1s all ease;
+}
+.contact-phone__telegram:hover {
+  color: #fff;
+}
+.contact-phone__number {
+  color: #bd9365;
+  text-decoration: none;
+  transition: 1s all ease;
+}
+.contact-phone__number:hover {
+  color: #fff;
+}
+
+/* ==================== Cards - title ============ */
+.blocks {
+  margin-top: 20px;
+}
+.blocks-title {
+}
+.blocks-title__name {
+  font-size: 35px;
+  line-height: 52px;
+  font-weight: 600;
+  color: #22262a;
+  margin-bottom: 20px;
+  cursor: pointer;
+  /* justify-content: center; */
+  text-align: center;
+}
+.blocks-list__title {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  list-style-type: none;
+}
+.block__list {
+  transition: 0.3s ease all;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+}
+.block__list__active {
+  color: #33a0ff;
+  margin-top: -5px;
+  border-bottom: 2px solid #33a0ff;
+}
+.block__list:hover {
+  color: #33a0ff;
+  margin-top: -5px;
+  border-bottom: 2px solid #33a0ff;
+}
+/*======== LIST ============ */
+.block-body {
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.block-cards {
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  list-style-type: none;
+
+  flex-wrap: wrap;
+}
+.block-card {
+  margin: 10px;
+  background: white;
+  border-radius: 20px;
+  transition: 0.3s all ease-in-out;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  flex-wrap: wrap;
+}
+.block-card:hover {
+  margin-top: -5px;
+}
+
+.block-card > img {
+  width: 250px;
+  height: 300px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.block-card__body {
+  padding: 10px;
+  height: 100px;
+}
+.block-card__name {
+  padding-left: 10px;
+}
+.block-card__price {
+  padding-left: 10px;
+}
+.card-btn__class {
+  text-align: center;
+  margin-top: 10px;
+}
+.card-link {
+  /* background-color: #40bfff; */
+  background-color: #33a0ff;
+  cursor: pointer;
+
+  font-size: 14px;
+  border-radius: 10px;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+  border: 2px solid white;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+
+  /* list-style-type: none;
+   */
+  text-decoration: none;
+}
+.block-card__link {
+  list-style-type: none;
+}
+.card-link:hover,
+.card-link::after,
+.card-link:active {
+  background: #377db9;
+  font-size: 14.5px;
+
+  /* padding: 5px 10px; */
+}
+.link-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /* height: 100px; */
+}
+
+.link-more__open {
+  color: #40bfff;
+  /* RESET */
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 1;
+
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+  padding: 5px 5px;
+  overflow: hidden;
+  color: #333;
+  vertical-align: bottom;
+  transition: color 0.3s ease-out;
+}
+
+.link-more__open::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  transform: translateY(calc(100% - 2px));
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%);
+  transition: transform 0.25s ease-out;
+}
+.link-more__open:hover {
+  color: #fff;
+}
+.link-more__open:hover::before {
+  transform: translateY(0);
+  transition: transform 0.25s ease-out;
+}
+
+/* ===============  ads  ============ */
+
+.ads {
+  height: 300px;
+  color: #ffffff;
+  background: #40bfff;
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.ads-body {
+  margin-left: 100px;
+}
+.ads-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  width: 500px;
+  margin-bottom: 20px;
+}
+.ads-text__link {
+  color: #fff;
+  text-decoration: none;
+}
+.ads-text {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.ads-link {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.ads-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width 0.3s;
+}
+.ads-link:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+.ads-img {
+  margin-left: 80px;
+}
+/* ===============  end ads  ============= */

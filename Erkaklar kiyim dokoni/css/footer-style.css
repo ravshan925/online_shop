@@ -1,0 +1,106 @@
+.footer {
+  margin-top: 50px;
+  background: #333;
+  
+}
+.footer-container {
+  margin: 0 auto;
+  padding: 60px 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  color: aliceblue;
+  flex-wrap: wrap;
+}
+.footer-map {
+  width: 300px;
+  height: 300px;
+}
+.footer-title {
+  padding-bottom: 20px;
+  font-size: 1.17em;
+  font-weight: 700;
+  text-align: start;
+}
+.footer-block {
+  text-align: start;
+  width: 400px;
+}
+.footer-contacts {
+  text-align: start;
+  line-height: 1.45em;
+}
+.contact-link {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-subscribe__title {
+  /* margin-top: 15px; */
+  padding-top: 30px;
+}
+/* .footer-comments{} */
+.comment-input {
+  width: 340px;
+  background: #fff;
+  border-radius: 20px;
+  margin: 2px auto;
+  padding: 10px;
+  outline: none;
+}
+.comment-textarea {
+  background: #fff;
+  border-radius: 20px;
+  margin-top: 5px;
+  padding: 10px;
+  outline: none;
+}
+
+.contact-text {
+  padding-bottom: 10px !important;
+}
+.fas {
+  color: grey;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.fab {
+}
+.social-media {
+  color: grey;
+  padding-right: 20px;
+  text-decoration: none;
+  transition: 0.3 all ease;
+}
+.social-media:hover {
+  margin-top: -5px;
+}
+.fa-facebook:hover {
+  color: #4267b2;
+}
+.fa-instagram:hover {
+  /* color: #ded1c1; */
+  color: rgb(251, 57, 88);
+}
+.fa-telegram:hover {
+  color: deepskyblue;
+}
+.fa-linkedin:hover {
+  color: #0077b5;
+}
+/* FOOTER COPYRIGHT  */
+.footer-copyright {
+  border-top: 1px solid grey;
+  background: #333;
+  
+}
+.footer-copyright__title{
+      color: #fff;
+      padding: 20px;
+      font-size: 16px;
+      font-weight: 400;
+      text-align: center;
+
+}
+.footer-comments{
+  margin-left: 20px;
+}
